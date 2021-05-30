@@ -36,7 +36,7 @@ def main():
         opcion = int(input("Ingrese una opcion: "))
         return opcion
     opcion = menu()
-
+    
     while opcion != SALIR:
 
         if opcion == AGREGAR_CUENTA:
